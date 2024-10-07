@@ -1,0 +1,143 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Green */
+    width: 100%;
+}
+
+.title {
+    width: 19%;
+    color: white;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.user-info {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+    padding: 10px;
+    justify-items: end;
+    justify-content: end;
+}
+
+.user-icon {
+    width: 40px;
+    height: 30px; 
+    margin-right: 3px;
+}
+
+.username {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+
+.homepage {
+    display: flex;
+    height: 89vh;
+}
+
+.color-panel {
+    width: 20.4%;
+    background-color: rgb(53, 53, 54);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.user-info1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.user-icon1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.active-indicator {
+    color: rgb(145, 145, 145);
+    margin-left: auto;
+}
+
+.color-options {
+    display: flex;
+    flex-direction: column;
+}
+.color-option {
+    width: 90%;
+    height: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.color-option:hover{
+    border: 1px solid rgb(87, 255, 9);
+}
+.content {
+    width: 80%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    background-color: white;
+    background-size: cover;
+}
+
+.image-container {
+    flex: 1; 
+    display: flex;
+    justify-items: center;
+}
+
+.image-container img {
+    width: 90%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    flex: 1; /* Take up equal space */
+    padding: 20px; /* Padding for text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    margin: 0 0 10px; /* Margin for title */
+    font-size: 2em; /* Title size */
+    color: #008a0b; /* Title color */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 1.2em; /* Description size */
+    color: #000000; /* Description color */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hspan{
+     color: #2bec8b;
+}
